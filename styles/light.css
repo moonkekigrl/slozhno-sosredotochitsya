@@ -1,8 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 :root.theme-light {
   --bg-color: #FFF1F7;
   --title-color: #FFC2E6;
@@ -63,6 +58,18 @@
 }
 
 @media {
+  .page.theme_auto .header__REC {
+    display: none;
+  }
+}
+
+@media (width < 1024px) {
+  .page.theme_auto .header__REC {
+    display: none;
+  }
+}
+
+@media (width < 768px) {
   .page.theme_auto .header__REC {
     display: none;
   }

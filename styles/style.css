@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   width: 100%;
   background-image: var(--bg-image);
@@ -10,7 +8,6 @@
   color: var(--text-color, );
   font-family: var(--main-font, sans-serif);
   background-color: var(--bg-color, #000028);
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .header {
@@ -282,7 +279,7 @@
 
 @media (width < 768px) {
   .content {
-    margin-inline-end: 2px;
+    margin-inline: 5px;
   }
 
   .content-section {
@@ -313,8 +310,7 @@
 
 @media (width < 768px) {
   .content__text-block {
-    margin-inline-start: 4px;
-    margin-inline-end: 14px;
+    margin-inline: 5px;
   }
 }
 
@@ -332,13 +328,11 @@
 
 @media (width < 768px) {
   .content__title {
-    margin-inline-start: 8px;
-    margin-inline-end: 8px;
+    margin-inline: 5px;
   }
 
   .content__title-accent {
-    margin-inline-start: 0px;
-    margin-inline-end: 1px;
+    margin-inline: 0;
   }
 }
 
@@ -445,8 +439,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-inline-start: -6px;
-    margin-inline-end: 1px;
+    margin-inline: 5px;
     margin-block-end: 50px;
   }
 
@@ -454,6 +447,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-inline: 0;
   }
 }
 
@@ -547,9 +541,8 @@
 @media (width < 768px) {
   .gallery {
     row-gap: 10px;
-    margin-inline-start: 3px;
-    margin-inline-end: 11px;
-    margin-block-end: 45px;
+    margin-inline: 5px;
+    margin-block-end: 43px;
   }
 
   .title_gallery {
@@ -618,11 +611,11 @@
 
   .decorated-zone__footer::before {
     inset-inline-end: 10px;
-    inset-block-start: 15px;
+    inset-block-start: 10px;
   }
 
   .decorated-zone__footer::after {
     inset-inline-start: 10px;
-    inset-block-end: 5px;
+    inset-block-end: 10px;
   }
 }
