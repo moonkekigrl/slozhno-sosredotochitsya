@@ -10,7 +10,8 @@
   --text-color: #353430;
   --subtitle-color: #353430;
   --accent-color: #FF8DCB;
-  --button-frame-color: rgb(53 52 48/ 0.4);
+  --button-hover-frame-color: rgb(53 52 48/ 0.4);
+  --button-frame-color: #353430;
   --corner-element-color: #353430;   
   --shadow-color: #FF8DCB;
   --link-color: #353430;
@@ -27,7 +28,8 @@
   --text-color: #353430;
   --subtitle-color: #353430;
   --accent-color: #FF8DCB; 
-  --button-frame-color: rgb(53 52 48/ 0.4);
+  --button-hover-frame-color: rgb(53 52 48/ 0.4);
+  --button-frame-color: #353430;
   --corner-element-color: #353430;   
   --shadow-color: #FF8DCB;
   --link-color: #353430;
@@ -45,7 +47,8 @@
     --text-color: #353430;
     --subtitle-color: #353430;
     --accent-color: #FF8DCB; 
-    --button-frame-color: rgb(53 52 48/ 0.4);
+    --button-hover-frame-color: rgb(53 52 48/ 0.4);
+    --button-frame-color: #353430;
     --corner-element-color: #353430;   
     --shadow-color: #FF8DCB;
     --link-color: #353430;
@@ -60,7 +63,7 @@
 }
 
 @media {
-  .page.theme_auto .header__REC{
+  .page.theme_auto .header__REC {
     display: none;
   }
 }

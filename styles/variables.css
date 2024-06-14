@@ -12,7 +12,8 @@
   --text-color: #F1B2CE;
   --rec-color: #FF0070;
   --accent-color: #FF0070;
-  --button-frame-color: rgb(255 0 112/ 0.4);
+  --button-hover-frame-color: rgb(255 0 112/ 0.4);
+  --button-frame-color: #FF0070;
   --corner-element-color: #FF0070;
   --shadow-color: #FF0070;
   --box-shadow-color: rgb(255 0 112/ 0.6);
