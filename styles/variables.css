@@ -1,5 +1,5 @@
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', sans-serif;
   --bg-color: #000028;
   --title-color: #DB00FF;
   --button-text-color: #FF0070;
@@ -12,9 +12,9 @@
   --button-frame-color: #FF0070;
   --corner-element-color: #FF0070;
   --shadow-color: #FF0070;
-  --box-shadow-color: rgb(255 0 112/ 0.6);
+  --box-shadow-color: rgb(255 0 112);
   --link-color: #F1B2CE;
   --link-shadow-color: #FF0070;
   --button-color: #FF0070;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(./images/cover-image-dark.png);
 }
