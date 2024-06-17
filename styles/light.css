@@ -13,7 +13,7 @@
   --link-color: #353430;
   --link-shadow-color: #FF8DCB;
   --button-color: #353430;
-  --bg-image: url(./images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,13 +32,13 @@
     --link-color: #353430;
     --link-shadow-color: #FF8DCB;
     --button-color: #353430;
-    --bg-image: url(./images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
   }
   .header__rec {
     visibility: hidden;
   }
 }
 
-.page.theme_light .header__REC {
+.page.theme_light .header__rec {
   visibility: hidden;
 }
